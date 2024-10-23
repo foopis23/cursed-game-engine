@@ -20,7 +20,7 @@ export default function BoxGroup() {
 
   return (
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    <object3D ref={groupRef}>
+    <object3D ref={groupRef as any}>
       {[...Array(3)].map((_, x) => (
         [...Array(3)].map((_, z) => (
           <Box key={x + z} position={[x * 3 - 3, 0, z * 3 - 3]} />
