@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      height: {
+        "window-title-bar": "var(--window-title-bar-height)",
+        "window-body": "calc(100% - var(--window-title-bar-height))",
+      }
     },
   },
   plugins: [],
