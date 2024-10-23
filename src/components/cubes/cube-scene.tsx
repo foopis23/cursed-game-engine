@@ -3,7 +3,7 @@
 import { Canvas } from '@react-three/fiber'
 import BoxGroup from './box-group';
 
-export default function Test() {
+export default function CubesScene() {
   return (
     <Canvas camera={{ position: [0, 0, 20] }}>
       <BoxGroup />
